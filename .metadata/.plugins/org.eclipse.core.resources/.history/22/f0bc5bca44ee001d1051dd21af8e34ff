@@ -1,0 +1,38 @@
+package in.ineuron.comp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student {
+
+	@Autowired(required = true)
+	private ICourse course;
+	
+	
+	static {
+		System.out.println("Student.class file is loading");
+	}
+	
+	public Student()
+	{
+		System.out.println("Student object is instantiated");
+	}
+	
+	public void preparation(String examName) {
+		System.out.println("Student.preparation()");
+		System.out.println("Course choose is :: " + course.getClass().getName());
+
+		String courseMaterial = course.courseMaterial();
+		float price = course.price();
+		System.out.println("Preparation is going on using " + courseMaterial + " material with price ::" + price);
+		System.out.println("Preparation completed for ::" + examName);
+
+	}
+
+	@Override
+	public String toString() {
+		return "Student [course=" + course + "]";
+	}
+	
+}

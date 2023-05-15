@@ -1,0 +1,37 @@
+package in.ineuron.comp;
+
+import java.util.Arrays;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "emp.info")
+public class Employee {
+
+	private String name;
+	private String address;
+	private String[] skills;
+	
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public void setSkills(String[] skills) {
+		this.skills = skills;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", address=" + address + ", skills=" + Arrays.toString(skills) + "]";
+	}
+	
+	
+	
+	
+	
+}

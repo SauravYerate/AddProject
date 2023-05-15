@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="std1" class="in.ineuron.bean.Student">
+<constructor-arg name="sid" value="10"></constructor-arg>
+<constructor-arg name="sname" value="SAURAV"></constructor-arg>
+<constructor-arg name="saddress" value="MI"></constructor-arg>
+<constructor-arg name="avg" value="34.43f"></constructor-arg>
+</bean>
+
+
+<bean id="std2" class="in.ineuron.bean.Student">
+<constructor-arg type="java.lang.Integer" value="101"></constructor-arg>
+<constructor-arg type="java.lang.String" value="SAURAV"></constructor-arg>
+<constructor-arg type="java.lang.String" value="MI"></constructor-arg>
+<constructor-arg type="java.lang.Float" value="34.43"></constructor-arg>
+
+</bean>
+ 
+<bean id="std3" class="in.ineuron.bean.Student">
+
+<constructor-arg index="0" value="201"></constructor-arg>
+<constructor-arg index="1" value="SACHIN"></constructor-arg>
+<constructor-arg index="2" value="MI"></constructor-arg>
+<constructor-arg index="3" value="34.45"></constructor-arg>
+</bean>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>

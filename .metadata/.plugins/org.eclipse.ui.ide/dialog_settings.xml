@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\admin\Downloads\SpringBootSourceCode_03_04_2023 (1)\Boot07-InjectionAnyTypeforSpringBean02"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_29_03_2023 (1)\IOCProject-29-RealTimeDI-100%SpringAnnotationsCRUDAPP"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_29_03_2023 (1)\IOCProject-28-100%SpringBeanConfigurationApp"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_29_03_2023 (1)\IOCProject-27-SpringBeanLifeCycleActionApp"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_28_03_2023 (1)\IOCProject-26-Spring@SteroTypeAnnotation"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_28_03_2023 (1)\IOCProject-25-RealTimeDI-SteroAnnotationsandPropertiesFileApproach"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_28_03_2023 (1)\IOCProject-24-Spring@AutowiredatConstructorApp"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_28_03_2023 (1)\IOCProject-23-Spring@AutowiredAppInstanceandSetterApp"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_28_03_2023 (1)\IOCProject-21-SpringPnameSpaceandCnameSpace"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_27_03_2023 (1)\IOCProject-20-Springi18NApp"/>
+			<item value="C:\Users\admin\Downloads\HibernateCrudApp"/>
+			<item value="C:\Users\admin\Downloads\HibernateSourceCode_03_03_2023 (1)\HB-10-Hibernate-GeneratorsApp"/>
+			<item value="C:\Users\admin\Downloads\HibernateSourceCode_03_03_2023 (1)\HB09-Configuration-Setup-App"/>
+			<item value="C:\Users\admin\Downloads\HibernateSourceCode_03_03_2023 (1)\HB08-DB-Entity-Synchronization"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_24_03_2023 (1)\IOCProject-15-RealTimeDI-UsingXMLPropertiesBeanInheritanceApp"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_24_03_2023 (1)\IOCProject-12-RealTimeDI-UsingXMLandPropertiesFileApproach"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_24_03_2023 (1)\IOCProject-11-SpringCollectionInjectionApp"/>
+			<item value="C:\Users\admin\Downloads\SpringSourceCode_24_03_2023 (1)\IOCProject-07-RealTimeDI-UsingXMLandPropertiesFileApproach"/>
+			<item value="C:\Users\admin\Downloads\HibernateSourceCode_02_03_2023 (1)\HB07-LoadAndDeleteApp"/>
+			<item value="C:\Users\admin\Downloads\HibernateSourceCode_02_03_2023 (1)\HB06-SaveOrUpdateApp"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="534"/>
+		<item key="DIALOG_Y_ORIGIN" value="209"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

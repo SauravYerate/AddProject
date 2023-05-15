@@ -1,0 +1,38 @@
+package in.ineuron.com;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component(value="bill")
+public class BillGenerator {
+	
+	@Autowired
+	private ItemInfo itemInfo;
+
+	@Value("#{info.idliprice+info.dosaprice+info.vadaprice")
+	private float billAmount;
+	
+	@Value("A2B")
+	private String hotelName;
+
+	public void setItemInfo(ItemInfo itemInfo) {
+		this.itemInfo = itemInfo;
+	}
+
+	public void setBillAmount(float billAmount) {
+		this.billAmount = billAmount;
+	}
+
+	public void setHotelName(String hotelName) {
+		this.hotelName = hotelName;
+	}
+
+	@Override
+	public String toString() {
+		return "BillGenerator [itemInfo=" + itemInfo + ", billAmount=" + billAmount + ", hotelName=" + hotelName + "]";
+	}
+	
+	
+	
+}

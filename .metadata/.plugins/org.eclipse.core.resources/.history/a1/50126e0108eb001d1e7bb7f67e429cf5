@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="marks" class="in.ineuron.Bean.MarksInfo">
+    <property name="marksInfo">
+        <array>
+            <value>100</value>
+            <value>200</value>
+            <value>300</value>
+            <value>400</value>
+       </array>
+    </property>
+</bean>
+
+
+
+<bean id="sysdate" class="java.util.Date"></bean>
+<bean id="dob" class="java.util.Date">
+<property name="date" value="02"></property>
+<property name="month" value="08"></property>
+<property name="year" value="93"></property>
+
+</bean>
+
+<bean id="clg" class="in.ineuron.Bean.College">
+
+<property name="sname">
+
+<list>
+
+<value>SAURAV</value>
+<value>SUMIT</value>
+<value>SANKET</value>
+
+
+
+</list>
+</property>
+
+</bean>
+
+<bean id="" class="">
+<property name="date">
+
+<list >
+<ref bean=""/>
+<ref bean=""/>
+</list>
+</property>
+
+
+</bean>
+
+
+   
+
+</beans>

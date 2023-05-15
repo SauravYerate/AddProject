@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	
+	
+
+<bean id="basecar" class="in.ineuron.Bean.CarInfo" abstract="true">
+
+<constructor-arg name="model" value="bmw"/>
+<constructor-arg name="ftype" value="diesel"/>
+<constructor-arg name="mno" value="101"/>
+<constructor-arg name="carId" ><null></null> </constructor-arg>
+
+</bean>
+
+
+<bean id="car1" class="in.ineuron.Bean.CarInfo" parent="basecar">
+
+<constructor-arg name="mno" value="501"/>
+<constructor-arg name="carNo" value="301"/>
+
+
+</bean>
+
+
+
+<bean id="car2" class="in.ineuron.Bean.CarInfo" parent="basecar">
+
+<constructor-arg name="mno" value="609"/>
+<constructor-arg name="carNo" value="390"/>
+
+
+</bean>
+
+
+
+   
+
+</beans>

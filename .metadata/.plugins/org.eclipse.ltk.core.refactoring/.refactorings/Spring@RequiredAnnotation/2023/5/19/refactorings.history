@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;Spring@RequiredAnnotation&apos;&#x0D;&#x0A;- Original project: &apos;Spring@RequiredAnnotation&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     in.ineuron.Bean.Department.java&#x0D;&#x0A;     in.ineuron.Bean.Employee.java" description="Delete elements" element1="/src&lt;in.ineuron.Bean{Department.java" element2="/src&lt;in.ineuron.Bean{Employee.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1683523628101" subPackages="false" version="1.0"/>
+</session>

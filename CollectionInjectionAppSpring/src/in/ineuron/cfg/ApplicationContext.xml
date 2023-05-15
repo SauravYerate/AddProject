@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+<bean id="pinfo" class="in.ineuron.Bean.PersonInfo">
+<constructor-arg name="pid" value="1"></constructor-arg>
+<constructor-arg name="pname" value="SAURAV"></constructor-arg>
+<constructor-arg name="paddress" value="MI"></constructor-arg>
+<constructor-arg name="dob"><null></null></constructor-arg>
+<constructor-arg name="dom"><null></null></constructor-arg>
+<constructor-arg name="doj"><null></null></constructor-arg>
+
+</bean>
+
+
+
+   
+
+</beans>

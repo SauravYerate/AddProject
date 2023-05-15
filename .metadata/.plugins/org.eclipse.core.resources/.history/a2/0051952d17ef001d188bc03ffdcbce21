@@ -1,0 +1,40 @@
+package in.ineuron.com;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component(value="info")
+
+public class ItemInfo {
+	
+	@Value("${item.idli.price}")
+	public float idliprice;
+	@Value("${item.dosa.price}")
+	public float dosaprice;
+	@Value("${item.vada.price}")
+	public float vadaprice;
+	
+	
+	
+	public void setIdliprice(float idliprice) {
+		this.idliprice = idliprice;
+	}
+	public void setDosaprice(float dosaprice) {
+		this.dosaprice = dosaprice;
+	}
+	public void setVadaprice(float vadaprice) {
+		this.vadaprice = vadaprice;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "ItemInfo [idliprice=" + idliprice + ", dosaprice=" + dosaprice + ", vadaprice=" + vadaprice + "]";
+	}
+	
+	
+	
+	
+
+}

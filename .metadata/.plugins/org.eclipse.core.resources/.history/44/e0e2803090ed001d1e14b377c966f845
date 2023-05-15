@@ -1,0 +1,51 @@
+package in.ineuron.comp;
+
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.PropertySources;
+import org.springframework.stereotype.Component;
+
+@Component(value="voter")
+@PropertySource(value="in/ineuron/commons/application.properties")
+public class Voter {
+	
+	@Value("${voter.info.name}")
+	private String name;
+	
+	@Value("${voter.info.age}")
+	private int age;
+	
+	private Date dov;
+	
+	static {
+		System.out.println("Voter.class file is loading");
+	}
+
+	public Voter() {
+		super();
+		System.out.println("Voter object got Instantiated");
+	}
+	
+	public void myInit()
+	{
+		
+	}
+	public String checkVotingEligibilty()
+	{
+		if(age<18)
+		
+			System.out.println("MR/MRS." +name+"YOU ARE NOT ELIGIBLE FOR VOTING"+"---->"+dov);
+
+			return "MR/MRS." +name+"YOU ARE  ELIGIBLE FOR VOTING"+"---->"+dov;
+	}
+	public void myDestroy()
+	{
+		name=null;
+		age=0;
+		dov=null;
+	}
+	
+
+}

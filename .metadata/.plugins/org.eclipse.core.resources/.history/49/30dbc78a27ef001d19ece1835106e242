@@ -1,0 +1,14 @@
+emp:
+  info:
+    address: MI
+    name: SAURAV
+    qua:
+    - BTECH
+    - MTECH
+    - MS
+    - MSC
+    skills:
+    - JAVA
+    - ADV.JAVA
+    - JEE
+    - WEB-TECH

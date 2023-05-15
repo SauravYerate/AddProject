@@ -1,0 +1,72 @@
+{
+  "properties": [
+    {
+      "name": "my.info.cpin",
+      "type": "java.lang.String",
+      "description": "A description for 'my.info.cpin'"
+    }
+  ]
+}
+{
+  "properties": [
+    {
+      "name": "my.info.csize",
+      "type": "java.lang.String",
+      "description": "A description for 'my.info.csize'"
+    }
+  ]
+}
+{
+  "properties": [
+    {
+      "name": "my.info.cloc",
+      "type": "java.lang.String",
+      "description": "A description for 'my.info.cloc'"
+    }
+  ]
+}
+{
+  "properties": [
+    {
+      "name": "my.info.cname",
+      "type": "java.lang.String",
+      "description": "A description for 'my.info.cname'"
+    }
+  ]
+}
+{
+  "properties": [
+    {
+      "name": "org.info.cpin",
+      "type": "java.lang.String",
+      "description": "A description for 'org.info.cpin'"
+    }
+  ]
+}
+{
+  "properties": [
+    {
+      "name": "org.info.csize",
+      "type": "java.lang.String",
+      "description": "A description for 'org.info.csize'"
+    }
+  ]
+}
+{
+  "properties": [
+    {
+      "name": "org.info.cloc",
+      "type": "java.lang.String",
+      "description": "A description for 'org.info.cloc'"
+    }
+  ]
+}
+{
+  "properties": [
+    {
+      "name": "org.info.cpin",
+      "type": "java.lang.String",
+      "description": "A description for 'org.info.cpin'"
+    }
+  ]
+}

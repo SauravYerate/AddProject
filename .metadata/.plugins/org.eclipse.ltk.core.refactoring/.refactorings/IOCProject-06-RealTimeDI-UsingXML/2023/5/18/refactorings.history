@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;in.ineuron.cfg&apos; to &apos;SpringRealTimeDIusingXML/src&apos;&#x0D;&#x0A;- Original project: &apos;IOCProject-06-RealTimeDI-UsingXML&apos;&#x0D;&#x0A;- Destination element: &apos;SpringRealTimeDIusingXML/src&apos;&#x0D;&#x0A;- Original element: &apos;IOCProject-06-RealTimeDI-UsingXML/src/in.ineuron.cfg&apos;" description="Copy package" destination="=SpringRealTimeDIusingXML/src" element1="/src&lt;in.ineuron.cfg" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1683180263261" version="1.0"/>
+</session>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+private String engno;
+	private String mno;
+	private String carNo;
+	private String carId;
+	private String model;
+	private String ftype;
+	
+	
+
+<bean id="basecar" class="in.ineuron.Bean.CarInfo" abstract="true">
+
+<property name="model" value="bmw"></property>
+<property name="ftype" value="diesel"></property>
+<property name="mno" value="101"></property>
+
+</bean>
+
+
+<bean id="car1" class="in.ineuron.Bean.CarInfo" parent="basecar">
+
+<property name="mno" value="501"></property>
+<property name="carNo" value="301"></property>
+
+</bean>
+
+
+
+<bean id="car1" class="in.ineuron.Bean.CarInfo" parent="basecar">
+
+<property name="mno" value="609"></property>
+<property name="carNo" value="390"></property>
+
+</bean>
+
+
+
+   
+
+</beans>

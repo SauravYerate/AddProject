@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "item.idli.price",
+    "type": "java.lang.String",
+    "description": "A description for 'item.idli.price'"
+  },
+  {
+    "name": "item.dosa.price",
+    "type": "java.lang.String",
+    "description": "A description for 'item.dosa.price'"
+  }
+]}
